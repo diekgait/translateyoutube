@@ -86,7 +86,7 @@ When everything is setup you can run the script.
 - In Visual Studio Code you press the green "play" button in the top right.
 - From a commandline/terminal you can execute the script using" `python translatev3.py`
 
-1.  After execusting the script it will display this message:
+1.  After execusting the script it will display a message like this:
 `Please visit this URL to authorize this application:` `https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=708070221486-53fdqpkpt7o6i03hhv4ndit06e07pb6d.appsgoogleusercontent.com&redirect_uri=urn%3Aietf%3Awg%3Aoauth%3A2.0%3Aoob&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.force-ssl&state=lHUus8DRFhqdYsmh6wcbFu7UU7JPRKprompt=consent&access_type=offline`
 `Enter the authorization code:`
 2.  Open the URL with your browser and authenticate with YouTube. 
