@@ -37,7 +37,7 @@ Python 3 has to be installed. It can be downloaded here: (https://www.python.org
 ## 2.1 Install required python modules
 
 A couple of python modules are required to run the script. Please install them using this command:
-> pip3 install --upgrade google-auth-oauthlib google-auth-httplib2 google-api-python-client requests
+`pip3 install --upgrade google-auth-oauthlib google-auth-httplib2 google-api-python-client requests`
 
 ## 2.2 Edit script variables
 
@@ -49,17 +49,17 @@ These variables need to be edited only the first time you run the script:
 
 **client_secrets_file**
 Here you need to fill in the name of your Youtube API Oauth authentication credential file(json) which you aquired in 1.2. This file should be put in same the same folder as the script.
-> client_secrets_file = 'client_secret_xxxxxxxxxxxx-53fdqpkxt7oxi0bhhb4n3it06e07pb6d.apps.googleusercontent.com.json'
+`client_secrets_file = 'client_secret_xxxxxxxxxxxx-53fdqpkxt7oxi0bhhb4n3it06e07pb6d.apps.googleusercontent.com.json'`
 
 **deeplkey**
 Here you need to enter your Deepl API authentication key which you aquired in 1.1.
-> deeplkey='xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx'
+`deeplkey='xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx'`
 
 ### Everytime variables
 
 **youtubevideo**
-Here you need to fill in the YouTube video ID. This id can be derived from the video url. They are the bold characters from this example: \https://www.youtube.com/watch?v=**fregObNcHC8**
-> youtubevideo = 'fregObNcHC8'
+Here you need to fill in the YouTube video ID. This id can be derived from the video url. They are the bold characters from this example: www.youtube.com<n/>/watch?v=**fregObNcHC8**
+`youtubevideo = 'fregObNcHC8'`
 
 **outputlanguages**
 Here you choose the output languages you want to the video to be translated into. These languages have to be supported to DeepL ofcourse. At his time of writing (August 2020) these languages are supported:
@@ -74,8 +74,8 @@ Here you choose the output languages you want to the video to be translated into
 - "PT" - Portuguese (all Portuguese varieties mixed)
 - "RU" - Russian
 - "ZH" - Chinese
-> outputlanguages = ['DE','FR','IT','JA','ES','NL','PL','PT','RU','ZH']
+`outputlanguages = ['DE','FR','IT','JA','ES','NL','PL','PT','RU','ZH']`
 
 **removenonenglish**
 Set below value to True if you want to remove existing non-English captions otherwise set to False. This is required if you're replacing existing captions because the API does allow you to overwrite.
-> removenonenglish = False
+`removenonenglish = False`
