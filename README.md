@@ -119,6 +119,8 @@ Good example:
 `0:00:27.060,0:00:34.260`\
 `For several years I fought with MTA to try to get wireless communications to enable eight million people to use them every day.`
 
+*If you see a newline here it's because of github not because there is one.
+
 Bad example:
 
 `0:00:27.060,0:00:34.260`\
