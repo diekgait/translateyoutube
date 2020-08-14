@@ -116,13 +116,13 @@ To make sure there are no unnecesarry newlines download the caption file(.sbv) a
 
 Good example:
 
-`0:00:27.060,0:00:34.260`
+`0:00:27.060,0:00:34.260`\
 `For several years I fought with MTA to try to get wireless communications to enable eight million people to use them every day.`
 
 Bad example:
 
-`0:00:27.060,0:00:34.260`
-`For several years I fought with MTA to try to get wireless`
+`0:00:27.060,0:00:34.260`\
+`For several years I fought with MTA to try to get wireless`\
 `communications to enable eight million people to use them every day.`
 
 Don't worry about having long sentences, YouTube will automaticly wrap then anyway based on the screensize you're watching the video on.
