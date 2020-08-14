@@ -1,24 +1,24 @@
 # YouTube caption translator
 
-This script allows you to leverage both the YouTube and Deepl API to:
+This script allows you to leverage both the YouTube and DeepL API to:
 1.  Download English captions from a YouTube video.
-2.  Translate these into any language Deepl supports.
+2.  Translate these into any language DeepL supports.
 3.  Upload the translated captions to the YouTube video.
 
 # 1.   Requirements
 
-- Deepl API authentication key
+- DeepL API authentication key
 - YouTube API Oauth authentication credential file(json)
 - Python 3
 
 ## 1.1 DeepL API authentication key
 
-A DeepL API authentication key can be obtained here: (https://www.deepl.com/pro#developer)
+A DeepL API authentication key can be obtained here: (https://www.DeepL.com/pro#developer)
 
 You need the plan "For developers" that at this time of writing\(August 2020) costs:
 
 - €4,99 per month for connectivity
-- €20.00 per 1.000.000 translated characters
+- €20,00 per 1.000.000 translated characters
 
 ## 1.2 YouTube API Oauth authentication credential file(json)
 
@@ -53,10 +53,10 @@ Here you need to fill in the name of your Youtube API Oauth authentication crede
 
 `client_secrets_file = 'client_secret_xxxxxxxxxxxx-53fdqpkxt7oxi0bhhb4n3it06e07pb6d.apps.googleusercontent.com.json'`
 
-**deeplkey**
-Here you need to enter your Deepl API authentication key which you aquired in 1.1.
+**DeepLkey**
+Here you need to enter your DeepL API authentication key which you aquired in 1.1.
 
-`deeplkey='xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx'`
+`DeepLkey='xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx'`
 
 ### Everytime variables
 
