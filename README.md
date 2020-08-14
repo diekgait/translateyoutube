@@ -110,15 +110,17 @@ Never use the automaticly generated captions as source. Please modify them and m
 Tip: While you're at it change the timing so the captions match the speach and are not longer displayed then necessary. This makes it easier for your viewers it does not alter translate performance though.
 
 ## 3.2 Remove newlines in scentances
-If you let create the subtitles based on a transcript it will default put in a newline(enter) to make sure the captions are displayed as two lines with approximately the same ammount of words. Please remove these newlines(enter) so that a single sentence is on one line. If you don't the 2 lines will be translated seperatly where the context might be misunderstood and the translation will be off.
+If you let YouTube create the subtitles based on a transcript it will by default put in a newline(enter) to make sure the captions are displayed as two lines with approximately the same ammount of words. Please remove these newlines(enters) so that a single sentence is on one line. If you don't the 2 lines will be translated seperatly where the context might be misunderstood and the translation will be off.
 
 To make sure there are no unnecesarry newlines download the caption file(.sbv) and open it with a text editor.
 
 Good example:
+
 `0:00:27.060,0:00:34.260`
-`For several years I fought with MTA to try to get wireless communications to enable eight million people to use them every day.``
+`For several years I fought with MTA to try to get wireless communications to enable eight million people to use them every day.`
 
 Bad example:
+
 `0:00:27.060,0:00:34.260`
 `For several years I fought with MTA to try to get wireless`
 `communications to enable eight million people to use them every day.`
