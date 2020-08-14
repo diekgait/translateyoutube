@@ -7,9 +7,9 @@ This script allows you to leverage both the YouTube and Deepl API to:
 
 # 1.   Requirements
 
-    -Deepl API authentication key
-    -YouTube API Oauth authentication credential file(json)
-    -Python 3
+- Deepl API authentication key
+- YouTube API Oauth authentication credential file(json)
+- Python 3
 
 ## 1.1 DeepL API authentication key
 
@@ -17,8 +17,8 @@ A DeepL API authentication key can be obtained here: (https://www.deepl.com/pro#
 
 You need the plan "For developers" that at this time of writing\(August 2020) costs:
 
-    -€4,99 per month for connectivity
-    -€20.00 per 1.000.000 translated characters
+- €4,99 per month for connectivity
+- €20.00 per 1.000.000 translated characters
 
 ## 1.2 YouTube API Oauth authentication credential file(json)
 
@@ -30,9 +30,9 @@ Python 3 has to be installed. It can be downloaded here: (https://www.python.org
 
 # 2.   How to use it
 
-    -Install required python modules
-    -Edit script variables
-    -Run script
+- Install required python modules
+- Edit script variables
+- Run script
 
 ## 2.1 Install required python modules
 
@@ -58,22 +58,22 @@ Here you need to enter your Deepl API authentication key which you aquired in 1.
 ### Everytime variables
 
 **youtubevideo**
-Here you need to fill in the YouTube video ID. This id can be derived from the video url. They are the bold characters from this example: https://www.youtube.com/watch?v=**fregObNcHC8**
+Here you need to fill in the YouTube video ID. This id can be derived from the video url. They are the bold characters from this example: \https://www.youtube.com/watch?v=**fregObNcHC8**
 > youtubevideo = 'fregObNcHC8'
 
 **outputlanguages**
 Here you choose the output languages you want to the video to be translated into. These languages have to be supported to DeepL ofcourse. At his time of writing (August 2020) these languages are supported:
-    - "DE" - German
-    - "EN" - English
-    - "FR" - French
-    - "IT" - Italian
-    - "JA" - Japanese
-    - "ES" - Spanish
-    - "NL" - Dutch
-    - "PL" - Polish
-    - "PT" - Portuguese (all Portuguese varieties mixed)
-    - "RU" - Russian
-    - "ZH" - Chinese
+- "DE" - German
+- "EN" - English
+- "FR" - French
+- "IT" - Italian
+- "JA" - Japanese
+- "ES" - Spanish
+- "NL" - Dutch
+- "PL" - Polish
+- "PT" - Portuguese (all Portuguese varieties mixed)
+- "RU" - Russian
+- "ZH" - Chinese
 > outputlanguages = ['DE','FR','IT','JA','ES','NL','PL','PT','RU','ZH']
 
 **removenonenglish**
