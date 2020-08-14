@@ -28,7 +28,7 @@ youtubevideo = 'fregObNcHC8'
 #Example for German and French: ['DE','FR']
 outputlanguages = ['DE','FR','IT','JA','ES','NL','PL','PT','RU','ZH']
 #TODO: Set below value to True if you want to remove existing non-English captions otherwise set to False. 
-# This is required if you're replacing existing captions because the API does allow you to overwrite.
+# This is required if you're replacing existing captions because the API does not allow you to overwrite.
 removenonenglish = False
 
 scopes = ["https://www.googleapis.com/auth/youtube.force-ssl"]

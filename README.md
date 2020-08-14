@@ -82,7 +82,7 @@ Here you choose the output languages you want to the video to be translated into
 `outputlanguages = ['DE','FR','IT','JA','ES','NL','PL','PT','RU','ZH']`
 
 **removenonenglish**
-Set below value to True if you want to remove existing non-English captions otherwise set to False. This is required if you're replacing existing captions because the API does allow you to overwrite.
+Set below value to True if you want to remove existing non-English captions otherwise set to False. This is required if you're replacing existing captions because the API does not allow you to overwrite.
 
 `removenonenglish = False`
 
@@ -99,3 +99,28 @@ When everything is setup you can run the script.
 
 2.  Open the URL with your browser and authenticate with YouTube. 
 3.  Copy the authorization code, paste it after "Enter the authorization code:" and press enter.
+
+# 3. How to get the best results.
+
+There's a couple of rules that will help you get the best translate results.
+
+## 3.1 Don't use autocaptions as a source
+Never use the automaticly generated captions as source. Please modify them and make sure they have correct sentences with interpunction.
+
+Tip: While you're at it change the timing so the captions match the speach and are not longer displayed then necessary. This makes it easier for your viewers it does not alter translate performance though.
+
+## 3.2 Remove newlines in scentances
+If you let create the subtitles based on a transcript it will default put in a newline(enter) to make sure the captions are displayed as two lines with approximately the same ammount of words. Please remove these newlines(enter) so that a single sentence is on one line. If you don't the 2 lines will be translated seperatly where the context might be misunderstood and the translation will be off.
+
+To make sure there are no unnecesarry newlines download the caption file(.sbv) and open it with a text editor.
+
+Good example:
+`0:00:27.060,0:00:34.260`
+`For several years I fought with MTA to try to get wireless communications to enable eight million people to use them every day.``
+
+Bad example:
+`0:00:27.060,0:00:34.260`
+`For several years I fought with MTA to try to get wireless`
+`communications to enable eight million people to use them every day.`
+
+Don't worry about having long sentences, YouTube will automaticly wrap then anyway based on the screensize you're watching the video on.
