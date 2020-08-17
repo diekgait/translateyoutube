@@ -103,7 +103,7 @@ for l in outputlanguages:
           'snippet': {
             'language': l,
             'name': '',
-            'videoId': 'bt7K3X5cG60',
+            'videoId': youtubevideo,
             'isDraft': False
           }
         },
