@@ -10,7 +10,7 @@ from googleapiclient.http import MediaFileUpload
 #TODO: Fill in Youtube API Oauth authentication credential file(json). Should be in same the same folder as the script.
 client_secrets_file = 'client_secret_xxxxxxxxxxxx-53fdqpkxt7oxi0bhhb4n3it06e07pb6d.apps.googleusercontent.com.json'
 #TODO: Enter your Deepl API authentication key below.
-deeplkey='xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx'
+deeplkey ='xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx'
 #TODO: Put in the video ID for the video that you want to process. This ID can be derived from the video URL.
 youtubevideo = 'fregObNcHC8'
 #TODO: Choose desired ouput languages. Current supported languages by Deepl are:
@@ -67,7 +67,7 @@ with open ('captions_EN.svb', "r") as myfile:
 def translate(langout):
     deepl_url = 'https://api.deepl.com/v2/translate?'
     data = {
-        'auth_key' : 'faf44193-dec3-780a-f7dd-d20a853de4ed',
+        'auth_key' : deeplkey,
         'text' : input,
         'source_lang' : 'EN',
         'target_lang' : langout 
