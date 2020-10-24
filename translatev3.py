@@ -61,7 +61,7 @@ complete = False
 while not complete:
     status, complete = download.next_chunk()
 # Read caption file
-with open ('captions_EN.svb', "r") as myfile:
+with open ('captions_EN.svb', "r", encoding='utf-8') as myfile:
     input=myfile.readlines()
 # Translate fucntion
 def translate(langout):
