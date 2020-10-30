@@ -128,9 +128,11 @@ Bad example:
 `communications to enable eight million people to use them every day.`
 
 ### 3.2.1 use regex
-An easy way to remove the unnescery newlines is to use notepad++ with search and replace action.
-Search for: '([a-z])( )(\r\n)([a-z])'
-Replace with: '\1 \4'
-Make sure that Regular expression is selected in the find window.
-
+An easy way to remove the unnescery newlines is to use notepad++ with search and replace action.\
+Search for: '([a-z])( )(\r\n)([a-z])'\
+Replace with: '\1 \4'\
+Make sure that Regular expression is selected in the find window.\
+\
+This video explains all of this really well: https://www.youtube.com/watch?v=Xp5wgsMFcz4
+\
 Don't worry about having long sentences, YouTube will automaticly wrap then anyway based on the screensize you're watching the video on.
